@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.emak.configuration.MongoDbConfigurationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2014-12-16T23:45:56" hostname="saurabhs-air" time="1.251">
+  <properties/>
+  <testcase name="testActiveProfile" classname="com.emak.configuration.MongoDbConfigurationTest" time="1.237"/>
+  <testcase name="testJavaParameter" classname="com.emak.configuration.MongoDbConfigurationTest" time="0.006"/>
+  <testcase name="defaultValues" classname="com.emak.configuration.MongoDbConfigurationTest" time="0.002"/>
+  <testcase name="mongoTemplateIsValid" classname="com.emak.configuration.MongoDbConfigurationTest" time="0.003"/>
+  <system-out><![CDATA[23:45:55,945 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+23:45:55,945 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+23:45:55,945 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/saurabh/code/gts/emak/oauth2-provider/build/resources/main/logback.xml]
+23:45:56,083 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+23:45:56,088 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+23:45:56,095 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+23:45:56,152 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+23:45:56,152 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+23:45:56,152 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+23:45:56,153 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.emak] to INFO
+23:45:56,153 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+23:45:56,153 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+23:45:56,154 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+23:45:56,154 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@bd04404 - Registering current configuration as safe fallback point
+
+logbak: 23:45:56.357 o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@4c792102: startup date [Tue Dec 16 23:45:56 GMT 2014]; root of context hierarchy
+logbak: 23:45:56.707 o.s.c.a.ConfigurationClassEnhancer - @Bean method PropertiesConfiguration.getProperties is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean Javadoc for complete details
+logbak: 23:45:56.725 o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [properties/application.properties]
+logbak: 23:45:56.726 o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [properties/app-default.properties]
+logbak: 23:45:56.726 o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from file [/Users/saurabh/code/gts/emak/oauth2-provider/build/classes/test/properties/app-default.properties]
+logbak: 23:45:56.727 o.s.c.s.PropertySourcesPlaceholderConfigurer - Could not load properties from file [/Users/saurabh/code/gts/emak/oauth2-provider/build/classes/test/properties/app-default.properties]: /Users/saurabh/code/gts/emak/oauth2-provider/build/classes/test/properties/app-default.properties (No such file or directory)
+logbak: 23:45:56.736 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+logbak: 23:45:56.765 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.scheduling.annotation.ProxyAsyncConfiguration' of type [class org.springframework.scheduling.annotation.ProxyAsyncConfiguration$$EnhancerBySpringCGLIB$$674adc54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+logbak: 23:45:57.067 c.e.c.MongoDbConfiguration - Configuring mongoTemplate without credentials.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

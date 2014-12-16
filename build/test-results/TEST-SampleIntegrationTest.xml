@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SampleIntegrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2014-12-16T23:46:13" hostname="saurabhs-air" time="0.898">
+  <properties/>
+  <testcase name="testHierarchicalRole" classname="SampleIntegrationTest" time="0.898"/>
+  <system-out><![CDATA[23:46:12,905 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+23:46:12,905 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+23:46:12,905 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/saurabh/code/gts/emak/oauth2-provider/build/resources/main/logback.xml]
+23:46:13,040 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+23:46:13,043 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+23:46:13,050 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+23:46:13,099 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+23:46:13,099 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+23:46:13,099 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+23:46:13,100 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.emak] to INFO
+23:46:13,100 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+23:46:13,100 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+23:46:13,101 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+23:46:13,103 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@467f0da4 - Registering current configuration as safe fallback point
+
+payload{"user":{"emailAddress":"EyWJTvzZ@example.com"},"password":"password123"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

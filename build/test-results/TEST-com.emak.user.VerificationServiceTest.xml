@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.emak.user.VerificationServiceTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2014-12-16T23:45:58" hostname="saurabhs-air" time="0.09">
+  <properties/>
+  <testcase name="verifyValidToken" classname="com.emak.user.VerificationServiceTest" time="0.02"/>
+  <testcase name="generateEmailTokenAlreadyActive" classname="com.emak.user.VerificationServiceTest" time="0.002"/>
+  <testcase name="emailAddressNotFound" classname="com.emak.user.VerificationServiceTest" time="0.001"/>
+  <testcase name="sendEmailToken" classname="com.emak.user.VerificationServiceTest" time="0.002"/>
+  <testcase name="sendRegistrationToken" classname="com.emak.user.VerificationServiceTest" time="0.002"/>
+  <testcase name="tokenAlreadyVerified" classname="com.emak.user.VerificationServiceTest" time="0.009"/>
+  <testcase name="generateEmailTokenAfterExpired" classname="com.emak.user.VerificationServiceTest" time="0.002"/>
+  <testcase name="sendLostPasswordToken" classname="com.emak.user.VerificationServiceTest" time="0.006"/>
+  <testcase name="tokenHasExpired" classname="com.emak.user.VerificationServiceTest" time="0.002"/>
+  <testcase name="resetPassword" classname="com.emak.user.VerificationServiceTest" time="0.013"/>
+  <testcase name="sendLostPasswordTokenAgain" classname="com.emak.user.VerificationServiceTest" time="0.005"/>
+  <testcase name="tokenNotFound" classname="com.emak.user.VerificationServiceTest" time="0.002"/>
+  <testcase name="generateEmailToken" classname="com.emak.user.VerificationServiceTest" time="0.002"/>
+  <testcase name="resetPasswordGetNewToken" classname="com.emak.user.VerificationServiceTest" time="0.012"/>
+  <testcase name="userAlreadyVerified" classname="com.emak.user.VerificationServiceTest" time="0.002"/>
+  <testcase name="generateEmailTokenAlreadyVerified" classname="com.emak.user.VerificationServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

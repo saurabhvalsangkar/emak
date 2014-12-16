@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.emak.user.MailSenderServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2014-12-16T23:45:57" hostname="saurabhs-air" time="0.248">
+  <properties/>
+  <testcase name="sendVerificationEmail" classname="com.emak.user.MailSenderServiceTest" time="0.222"/>
+  <testcase name="sendRegistrationEmail" classname="com.emak.user.MailSenderServiceTest" time="0.01"/>
+  <testcase name="sendLostPasswordEmail" classname="com.emak.user.MailSenderServiceTest" time="0.012"/>
+  <system-out><![CDATA[logbak: 23:45:57.651 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.0.Final
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.emak.user.UserServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2014-12-16T23:45:58" hostname="saurabhs-air" time="0.35">
+  <properties/>
+  <testcase name="badNameRequest" classname="com.emak.user.UserServiceTest" time="0.252"/>
+  <testcase name="duplicateUser" classname="com.emak.user.UserServiceTest" time="0.043"/>
+  <testcase name="loadUserByUserName" classname="com.emak.user.UserServiceTest" time="0.001"/>
+  <testcase name="nullPasswordRequest" classname="com.emak.user.UserServiceTest" time="0.009"/>
+  <testcase name="userNotFoundByEmailAddress" classname="com.emak.user.UserServiceTest" time="0.001"/>
+  <testcase name="nullEmailRequest" classname="com.emak.user.UserServiceTest" time="0.011"/>
+  <testcase name="createNewUserNonExisting" classname="com.emak.user.UserServiceTest" time="0.022"/>
+  <system-out><![CDATA[logbak: 23:45:58.005 com.emak.user.UserService - Validating user request.
+logbak: 23:45:58.258 com.emak.user.UserService - Validating user request.
+logbak: 23:45:58.273 com.emak.user.UserService - User does not already exist in the data store - creating a new user [foobar@example.com].
+logbak: 23:45:58.298 com.emak.user.UserService - Validating user request.
+logbak: 23:45:58.300 com.emak.user.UserService - Duplicate user located, exception raised with appropriate HTTP response code.
+logbak: 23:45:58.305 com.emak.user.UserService - Validating user request.
+logbak: 23:45:58.318 com.emak.user.UserService - Validating user request.
+logbak: 23:45:58.331 com.emak.user.UserService - Validating user request.
+logbak: 23:45:58.342 com.emak.user.UserService - User does not already exist in the data store - creating a new user [foobar@example.com].
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

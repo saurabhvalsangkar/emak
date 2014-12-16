@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.emak.configuration.MongoDbConfigurationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.emak.configuration.MongoDbConfigurationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.emak.configuration.html">com.emak.configuration</a> &gt; MongoDbConfigurationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.248s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">defaultValues</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mongoTemplateIsValid</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testActiveProfile</td>
+<td>1.237s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJavaParameter</td>
+<td>0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>23:45:55,945 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+23:45:55,945 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+23:45:55,945 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/saurabh/code/gts/emak/oauth2-provider/build/resources/main/logback.xml]
+23:45:56,083 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+23:45:56,088 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+23:45:56,095 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+23:45:56,152 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+23:45:56,152 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+23:45:56,152 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+23:45:56,153 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.emak] to INFO
+23:45:56,153 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+23:45:56,153 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+23:45:56,154 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+23:45:56,154 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@bd04404 - Registering current configuration as safe fallback point
+
+logbak: 23:45:56.357 o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@4c792102: startup date [Tue Dec 16 23:45:56 GMT 2014]; root of context hierarchy
+logbak: 23:45:56.707 o.s.c.a.ConfigurationClassEnhancer - @Bean method PropertiesConfiguration.getProperties is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean Javadoc for complete details
+logbak: 23:45:56.725 o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [properties/application.properties]
+logbak: 23:45:56.726 o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [properties/app-default.properties]
+logbak: 23:45:56.726 o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from file [/Users/saurabh/code/gts/emak/oauth2-provider/build/classes/test/properties/app-default.properties]
+logbak: 23:45:56.727 o.s.c.s.PropertySourcesPlaceholderConfigurer - Could not load properties from file [/Users/saurabh/code/gts/emak/oauth2-provider/build/classes/test/properties/app-default.properties]: /Users/saurabh/code/gts/emak/oauth2-provider/build/classes/test/properties/app-default.properties (No such file or directory)
+logbak: 23:45:56.736 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+logbak: 23:45:56.765 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.scheduling.annotation.ProxyAsyncConfiguration' of type [class org.springframework.scheduling.annotation.ProxyAsyncConfiguration$$EnhancerBySpringCGLIB$$674adc54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+logbak: 23:45:57.067 c.e.c.MongoDbConfiguration - Configuring mongoTemplate without credentials.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 2.1</a> at 16-Dec-2014 23:45:58</p>
+</div>
+</div>
+</body>

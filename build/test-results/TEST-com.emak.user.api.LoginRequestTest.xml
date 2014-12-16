@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.emak.user.api.LoginRequestTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2014-12-16T23:45:58" hostname="saurabhs-air" time="0.021">
+  <properties/>
+  <testcase name="invalidEmailAddress" classname="com.emak.user.api.LoginRequestTest" time="0.01"/>
+  <testcase name="invalidPassword" classname="com.emak.user.api.LoginRequestTest" time="0.006"/>
+  <testcase name="validRequest" classname="com.emak.user.api.LoginRequestTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
